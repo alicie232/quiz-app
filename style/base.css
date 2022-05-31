@@ -3,12 +3,14 @@
 }
 
 :root {
-  --basecolor: lightblue;
-  --color2: blue;
+  --basecolor: #a5cec1;
+  --color2: #1d438a;
+  --basefont: "Open Sans", sans-serif;
 }
 
 body {
   margin: 0;
+  font-family: var(--basefont);
 }
 
 ul {

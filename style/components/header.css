@@ -1,8 +1,8 @@
 header {
   background-color: var(--basecolor);
-  height: 80px;
+  border-radius: 50px;
 }
 
-p {
+h1 {
   color: var(--color2);
 }
