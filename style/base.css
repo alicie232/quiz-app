@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --basecolor: lightblue;
+  --color2: blue;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}

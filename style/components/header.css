@@ -1,0 +1,8 @@
+header {
+  background-color: var(--basecolor);
+  height: 80px;
+}
+
+p {
+  color: var(--color2);
+}
