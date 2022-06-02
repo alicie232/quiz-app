@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz App - Create</title>
+  </head>
+  <body>
+    <header><h1>Create</h1></header>
+    <main>
+      <!-- Formular Ausgabe funktioniert noch nicht, Java Script in index.html fehlt -->
+      <form action="index.html" method="get">
+        <!-- Formular für Fragen -->
+        <ul>
+          <li>
+            <label for="question">
+              Add question:
+              <!-- <input type="text" name="question" id="question" placeholder="question" required> -->
+              <textarea id="question" name="question">Add question</textarea>
+            </label>
+          </li>
+          <!-- Formular für Antworten -->
+          <li>
+            <label for="answer">
+              Add answer:
+              <input
+                type="text"
+                name="answer"
+                id="answer"
+                placeholder="answer"
+                required
+              />
+            </label>
+          </li>
+          <!-- Formular für Tags-->
+          <li>
+            <label for="tags">
+              Add tags:
+              <input
+                type="text"
+                name="tags"
+                id="tags"
+                placeholder="tags divided by comma"
+                required
+              />
+            </label>
+          </li>
+        </ul>
+        <li class="button">
+          <button type="submit">Submit</button>
+        </li>
+      </form>
+    </main>
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./bookmark.html">Bookmark</a></li>
+        <li><a href="./create.html">Create</a></li>
+        <li><a href="./profile.html">Profile</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
