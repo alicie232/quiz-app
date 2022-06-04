@@ -1,8 +1,19 @@
 nav {
   background-color: var(--basecolor);
-  height: 100px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  align-items: center;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+.nav-button {
+  background-color: #41bf78;
+  color: white;
+  padding: 15px 15px;
+  text-decoration: none;
 }
