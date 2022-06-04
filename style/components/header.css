@@ -2,7 +2,3 @@ header {
   background-color: var(--basecolor);
   border-radius: 50px;
 }
-
-h1 {
-  color: var(--color2);
-}

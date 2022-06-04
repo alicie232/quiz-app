@@ -16,7 +16,7 @@
         <ul>
           <li>
             <label for="question">
-              Add question:
+              <h2>Add question:</h2>
               <!-- <input type="text" name="question" id="question" placeholder="question" required> -->
               <textarea id="question" name="question">Add question</textarea>
             </label>
@@ -43,8 +43,10 @@
                 name="tags"
                 id="tags"
                 placeholder="tags divided by comma"
+                aria-describedby="tags-info"
                 required
               />
+              <p id="tags-info">(Tags durch Komma trennen</p>
             </label>
           </li>
         </ul>

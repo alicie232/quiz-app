@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /* padding: 0; */
 }
 
 :root {
@@ -11,6 +12,10 @@
 body {
   margin: 0;
   font-family: var(--basefont);
+}
+
+h1 {
+  color: var(--color2);
 }
 
 ul {
