@@ -1,19 +1,24 @@
 nav {
-  background-color: var(--basecolor);
+  background-color: var(--base-color);
   font-size: 30px;
   display: flex;
   justify-content: space-around;
   gap: 10px;
   align-items: center;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 375px;
+  height: 88px;
 }
 
-.nav-button {
-  background-color: #41bf78;
-  color: white;
-  padding: 15px 15px;
-  text-decoration: none;
+.nav__button {
+  /* background-color: #41bf78; */ /*bg-c nur zum testen*/
+  color: var(--color-active);
+  padding: 15px 20px;
+  border-radius: 20%;
+}
+
+a:hover {
+  color: var(--color2);
 }

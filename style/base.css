@@ -1,11 +1,10 @@
 * {
   box-sizing: border-box;
-  /* padding: 0; */
 }
 
 :root {
-  --basecolor: #a5cec1;
-  --color2: #1d438a;
+  --base-color: #a5cec1;
+  --color2: #071540;
   --basefont: "Open Sans", sans-serif;
 }
 
