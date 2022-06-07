@@ -1,23 +1,24 @@
 * {
   box-sizing: border-box;
-  /* padding: 0; */
+  padding: 0;
+  margin: 0;
 }
 
 :root {
-  --basecolor: #a5cec1;
+  --font-base: "Open Sans", sans-serif;
+  --background-color--secondary: #303665;
   --color2: #1d438a;
-  --basefont: "Open Sans", sans-serif;
+  --font-color--main: #fffdff;
+  --nav-icon--primary: #990099;
+  --nav-icon--secondary: #0066ff;
 }
 
 body {
-  margin: 0;
-  font-family: var(--basefont);
+  font-family: var(--font-base);
+  background-color: #151543;
+  color: var(--font-color--main);
 }
 
 h1 {
   color: var(--color2);
-}
-
-ul {
-  list-style: none;
 }
