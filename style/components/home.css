@@ -23,7 +23,8 @@
   width: auto;
   padding: 5px;
   align-self: center;
-  background-color: #fcecca;
+  /* Variable anlegen! */
+  background: var(--button-answer);
   color: var(--background-color--secondary);
   border-radius: 5px;
 }
