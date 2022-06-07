@@ -1,23 +1,21 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 :root {
-  --base-color: #a5cec1;
-  --color2: #071540;
-  --basefont: "Open Sans", sans-serif;
-  --color-active: #f2f2f2;
+  --font-base: "Open Sans", sans-serif;
+  --background-color--primary: #151543;
+  --background-color--secondary: #303665;
+  --color2: #1d438a;
+  --font-color--main: #fffdff;
+  --nav-icon--primary: #990099;
+  --nav-icon--secondary: #0066ff;
 }
 
 body {
-  margin: 0;
-  font-family: var(--basefont);
-}
-
-h1 {
-  color: var(--color2);
-}
-
-ul {
-  list-style: none;
+  font-family: var(--font-base);
+  background-color: var(--background-color--primary);
+  color: var(--font-color--main);
 }

@@ -1,5 +1,6 @@
 nav {
-  background-color: var(--base-color);
+  background-color: var(--background-color--secondary);
+  border: 1px solid var(--background-color--primary);
   font-size: 30px;
   display: flex;
   justify-content: space-around;
@@ -13,12 +14,11 @@ nav {
 }
 
 .nav__button {
-  /* background-color: #41bf78; */ /*bg-c nur zum testen*/
   color: var(--color-active);
   padding: 15px 20px;
   border-radius: 20%;
 }
 
 a:hover {
-  color: var(--color2);
+  color: var(--background-color--primary);
 }
