@@ -11,6 +11,8 @@
 }
 
 .question-card__title {
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 
 .question-card__question {
@@ -44,7 +46,7 @@
 }
 
 .question-card__bookmark {
-  font-size: 40px;
+  font-size: 30px;
   color: var(--nav-icon--primary);
   position: absolute;
   right: 10px;
