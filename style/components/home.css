@@ -1,4 +1,4 @@
-.question__card {
+.question-card {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -10,14 +10,14 @@
   border-radius: 20px;
 }
 
-.question__card--title {
+.question-card__title {
 }
 
-.question__card--question {
+.question-card__question {
   padding: 0 10px;
 }
 
-.question__card--button {
+.question-card__button {
   border: 3px solid #ffc436;
   height: 40px;
   width: auto;
@@ -29,13 +29,13 @@
   border-radius: 5px;
 }
 
-.question__card--all-tags {
+.question-card__tag--all {
   display: flex;
   justify-content: space-around;
   text-align: center;
 }
 
-.question__card--tag {
+.question-card__tag {
   height: 30px;
   width: 60px;
   padding: 5px;
@@ -43,7 +43,7 @@
   border-radius: 5px;
 }
 
-.question__card--bookmark {
+.question-card__bookmark {
   font-size: 40px;
   color: var(--nav-icon--primary);
   position: absolute;

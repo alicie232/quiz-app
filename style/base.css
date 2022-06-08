@@ -6,6 +6,7 @@
 
 :root {
   --font-base: "Open Sans", sans-serif;
+  --background-color--primary: #151543;
   --background-color--secondary: #303665;
   --color2: #1d438a;
   --font-color--main: #fffdff;
@@ -16,10 +17,6 @@
 
 body {
   font-family: var(--font-base);
-  background-color: #151543;
+  background-color: var(--background-color--primary);
   color: var(--font-color--main);
-}
-
-h1 {
-  color: var(--color2);
 }
