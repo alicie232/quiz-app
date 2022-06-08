@@ -1,3 +1,4 @@
+@import "./style/base.css";
 @import "./style/components/header.css";
 @import "./style/components/navigation.css";
-@import "./style/base.css";
+@import "./style/components/home.css";
