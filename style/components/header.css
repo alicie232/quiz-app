@@ -1,4 +1,3 @@
 header {
-  background-color: var(--basecolor);
-  border-radius: 50px;
+  background-color: var(--background-color--secondary);
 }
