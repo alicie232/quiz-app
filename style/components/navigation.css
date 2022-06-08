@@ -1,8 +1,24 @@
 nav {
-  background-color: var(--basecolor);
-  height: 100px;
-  position: fixed;
+  background-color: var(--background-color--secondary);
+  border: 1px solid var(--background-color--primary);
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  align-items: center;
+  position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 375px;
+  height: 88px;
+}
+
+.nav__button {
+  color: var(--color-active);
+  padding: 15px 20px;
+  border-radius: 20%;
+}
+
+a:hover {
+  color: var(--background-color--primary);
 }

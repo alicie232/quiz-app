@@ -2,7 +2,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--basecolor);
+  background-color: var(--background-color--secondary);
   height: 80px;
   bottom: 0;
   left: 0;
