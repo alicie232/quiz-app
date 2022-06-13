@@ -13,59 +13,32 @@
   </head>
   <body>
     <header>Profile</header>
-    <main>
-      <!-- folgender Text dient erstmal als Platzhalter -->
-      <section>
-        <h2>Profile Foto and name:</h2>
-        <img
-          src="https://source.unsplash.com/random/100x100"
-          alt="Profilfoto"
-        />
-        Name
-      </section>
-      <section>
+    <main class="profile">
+      <img
+        class="profile-photo"
+        src="images/profile/alice_sunrise.jpg"
+        alt="Profilfoto"
+      />
+      <p class="profile-name">Alice</p>
+      <section class="about">
         <h2>About yourself:</h2>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ea
         quas nemo deleniti aliquam, nobis consectetur cum culpa, suscipit quos
         voluptatem incidunt rem veniam perspiciatis eius, esse provident
         laudantium? Obcaecati.
       </section>
-      <section>
+      <section class="skills">
         <h2>Tags about skills</h2>
-        <ul>
-          <li>Tag</li>
-          <li>Tag</li>
-          <li>Tag</li>
-          <li>Tag</li>
+        <ul class="tag--all">
+          <li class="tag">A</li>
+          <li class="tag">B</li>
+          <li class="tag">C</li>
+          <li class="tag">D</li>
         </ul>
       </section>
-      <button>Logout</button>
-      <!-- Blindtext zum erzeugen von Scrollcontent -->
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-        possimus. Quibusdam quos est aspernatur, deleniti vero, recusandae harum
-        quis minus animi aperiam perspiciatis culpa aliquid sunt dignissimos,
-        exercitationem doloribus labore!Loremlor Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Nobis pariatur quia obcaecati officiis
-        dolorem praesentium magni et aut distinctio nisi eligendi, est soluta,
-        fugiat, dolorum adipisci veritatis vel maiores alias.Lorem ipsum dolor
-        sit amet consectetur adipisicing elit. Architecto, possimus. Quibusdam
-        quos est aspernatur, deleniti vero, recusandae harum quis minus animi
-        aperiam perspiciatis culpa aliquid sunt dignissimos, exercitationem
-        doloribus labore!Loremlor Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Nobis pariatur quia obcaecati officiis dolorem
-        praesentium magni et aut distinctio nisi eligendi, est soluta, fugiat,
-        dolorum adipisci veritatis vel maiores alias.Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Architecto, possimus. Quibusdam quos est
-        aspernatur, deleniti vero, recusandae harum quis minus animi aperiam
-        perspiciatis culpa aliquid sunt dignissimos, exercitationem doloribus
-        labore!Loremlor Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Nobis pariatur quia obcaecati officiis dolorem praesentium magni et aut
-        distinctio nisi eligendi, est soluta, fugiat, dolorum adipisci veritatis
-        vel maiores alias.
-      </p>
+      <button class="login__button">Login</button>
+      <!-- <button type="button" class="button button--submit">Submit</button> -->
     </main>
-    <!-- Navigation -->
     <nav>
       <a class="nav__button" href="index.html" alt="Home">
         <i class="fa-solid fa-house"></i>

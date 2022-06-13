@@ -1,0 +1,34 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  padding: 15px;
+  gap: 15px;
+}
+
+.profile-photo {
+  width: 150px;
+  border-radius: 100%;
+}
+
+.profile-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.about {
+}
+
+.skills {
+}
+
+.login__button {
+  border: 3px solid #ffc436;
+  height: 40px;
+  width: 70px;
+  padding: 5px;
+  align-self: center;
+  /* Variable anlegen! */
+  background: var(--button-answer);
+  border-radius: 5px;
+}

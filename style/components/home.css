@@ -19,30 +19,35 @@
   padding: 0 10px;
 }
 
+.question-card__answer {
+  padding: 0 10px;
+  display: none;
+}
+
+.hidden {
+  display: block;
+}
+
 .question-card__button {
   border: 3px solid #ffc436;
   height: 40px;
   width: auto;
   padding: 5px;
   align-self: center;
-  /* Variable anlegen! */
-  background: var(--button-answer);
+  /* background-color: var(--button-answer); Variable funktioniert nicht - warum?*/
+  background: linear-gradient(90deg, #ffc436 0%, #fcecca 102.84%);
   color: var(--background-color--secondary);
   border-radius: 5px;
 }
 
+.question-card__button:hover {
+  background: linear-gradient(90deg, #fcecca 0%, #ffc436 102.84%);
+}
+
 .question-card__tag--all {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
 }
 
 .question-card__tag {
-  height: 30px;
-  width: 60px;
-  padding: 5px;
-  background-color: #3e9ffe;
-  border-radius: 5px;
 }
 
 .question-card__bookmark {
@@ -51,4 +56,16 @@
   position: absolute;
   right: 10px;
   top: -10px;
+  background-color: transparent;
+  border: none;
+}
+
+.question-card__bookmark--marked {
+  font-size: 30px;
+  color: var(--nav-icon--secondary);
+  position: absolute;
+  right: 10px;
+  top: -10px;
+  background-color: transparent;
+  border: none;
 }
