@@ -4,6 +4,8 @@
   "description": "quiz app for neuefische",
   "main": "index.js",
   "scripts": {
+    "prettier:check": "npx prettier --check .",
+    "prettier:write": "npx prettier --write .",
     "htmlhint": "npx htmlhint \"**/*.html\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/alicie232/quiz-app#readme",
   "devDependencies": {
-    "htmlhint": "^1.1.4"
+    "htmlhint": "^1.1.4",
+    "prettier": "^2.7.0"
   }
 }
