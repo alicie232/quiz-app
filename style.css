@@ -1,5 +1,6 @@
 @import './style/base.css';
 @import './style/components/header.css';
 @import './style/components/navigation.css';
-@import './style/components/home.css';
+@import './style/components/card.css';
 @import './style/components/profile.css';
+@import './style/components/tags.css';
