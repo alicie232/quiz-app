@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="js/answer.js" defer></script>
-    <script type="text/javascript" src="js/bookmark.js" defer></script>
+    <script type="module" src="index.js" defer></script>
     <script
       src="https://kit.fontawesome.com/e98346ef52.js"
       crossorigin="anonymous"
@@ -16,16 +15,17 @@
   <body>
     <header>Quiz App</header>
     <main>
-      <section>
-        <article class="question-card">
-          <p class="question-card__title">Question:</p>
-          <p class="question-card__question">
+      <section class="question-card" data-js="card">
+          <button class="question-card__bookmark" aria-lable="bookmark" data-js="bookmark">
+            <i class="fa-solid fa-bookmark"></i>
+          </button>         
+          <h2 class="question-card__title">Question:</h2>
+          <p class="question-card__question" data-js="question">
             Hier steht eine Frage<br />
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore hic
             possimus eaque nam in perspiciatis laudantium doloribus enim.
           </p>
-          <button class="question-card__button" data-js="button">
-            Show Answer
+          <button class="question-card__button" data-js="button">Show Answer
           </button>
           <p class="question-card__answer" data-js="answer">
             Hier steht eine Antwort<br />
@@ -38,45 +38,31 @@
             <li class="tag">C</li>
             <li class="tag">D</li>
           </ul>
-          <button
-            class="question-card__bookmark"
-            aria-lable="bookmark"
-            data-js="bookmark"
-          >
-            <i class="fa-solid fa-bookmark"></i>
-          </button>
-        </article>
-
-        <article class="question-card">
-          <p class="question-card__title">Question:</p>
-          <p class="question-card__question">
-            Hier steht eine Frage<br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore hic
-            possimus eaque nam in perspiciatis laudantium doloribus enim.
-          </p>
-          <button class="question-card__button" data-js="button">
-            Show Answer
-          </button>
-          <p class="question-card__answer" data-js="answer">
-            Hier steht eine Antwort<br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore hic
-            possimus eaque nam in perspiciatis laudantium doloribus enim.
-          </p>
-          <ul class="question-card__tag--all tag--all">
-            <li class="question-card__tag tag">A</li>
-            <li class="question-card__tag tag">B</li>
-            <li class="question-card__tag tag">C</li>
-            <li class="question-card__tag tag">D</li>
-          </ul>
-          <button
-            class="question-card__bookmark"
-            aria-lable="bookmark"
-            data-js="bookmark"
-          >
-            <i class="fa-solid fa-bookmark"></i>
-          </button>
-        </article>
-      </section>
+       </section>
+       <section class="question-card" data-js="card">
+        <button class="question-card__bookmark" aria-lable="bookmark" data-js="bookmark">
+          <i class="fa-solid fa-bookmark"></i>
+        </button>    
+        <h2 class="question-card__title">Question:</h2>
+        <p class="question-card__question" data-js="question">
+          Hier steht eine Frage<br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore hic
+          possimus eaque nam in perspiciatis laudantium doloribus enim.
+        </p>
+        <button class="question-card__button" data-js="button">Show Answer
+        </button>
+        <p class="question-card__answer" data-js="answer">
+          Hier steht eine Antwort<br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore hic
+          possimus eaque nam in perspiciatis laudantium doloribus enim.
+        </p>
+        <ul class="tag--all">
+          <li class="tag">A</li>
+          <li class="tag">B</li>
+          <li class="tag">C</li>
+          <li class="tag">D</li>
+        </ul>
+     </section>
     </main>
     <nav>
       <a class="nav__button" href="index.html" alt="Home">
