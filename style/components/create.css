@@ -1,0 +1,23 @@
+.create {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-question {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 15px;
+    gap: 15px;
+}
+
+.create-button {
+    border: 3px solid #ffc436;
+    height: 40px;
+    width: 70px;
+    padding: 5px;
+    align-self: center;
+    background: var(--button-answer);
+    border-radius: 5px;
+}
+  

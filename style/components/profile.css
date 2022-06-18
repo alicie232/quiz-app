@@ -28,7 +28,6 @@
   width: 70px;
   padding: 5px;
   align-self: center;
-  /* Variable anlegen! */
   background: var(--button-answer);
   border-radius: 5px;
 }
