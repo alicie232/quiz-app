@@ -6,12 +6,3 @@ export default function toggleBookmark(){
       } )
   })
 }
-
-// export default function toggleBookmark(){
-// const bookmark = document.querySelector('[data-js=bookmark]')
-// bookmark.addEventListener('click', () =>
-//   document.querySelector('.question-card__bookmark')
-//     .classList.toggle('question-card__bookmark--marked')
-// );
-// console.log(bookmark);
-// }
