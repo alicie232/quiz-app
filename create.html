@@ -6,54 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script type=“text/javascript” src=“js/app.js” defer></script>
-    <script
-      src="https://kit.fontawesome.com/e98346ef52.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/e98346ef52.js" crossorigin="anonymous">
+  </script>
     <title>Quiz App - Create</title>
   </head>
   <body>
     <header>Create</header>
     <main>
-      <form>
-        <ul>
-          <li>
+        <form class="create" id="create">
+          <fieldset class="add-question" >
+            <legend>Create a new question card</legend>
             <label for="question">
-              <h2>Add question:</h2>
-              <textarea id="question" name="question">Add question</textarea>
+              Question: <input name="question" id="question" placeholder="add question">
             </label>
-          </li>
-          <li>
             <label for="answer">
-              Add answer:
-              <input
-                type="text"
-                name="answer"
-                id="answer"
-                placeholder="answer"
-                required
-              />
+              Answer: <input name="answer" id="answer" placeholder="add answer">
             </label>
-          </li>
-          <li>
             <label for="tags">
-              Add tags:
-              <input
-                type="text"
-                name="tags"
-                id="tags"
-                placeholder="tags divided by comma"
-                aria-describedby="tags-info"
-                required
-              />
-              <p id="tags-info">(Tags durch Komma trennen</p>
+              Tags (divided by comma!): <input name="tags" id="tags" placeholder="add tags">
             </label>
-          </li>
-        </ul>
-        <li class="button">
-          <button type="submit">Submit</button>
-        </li>
-      </form>
+          </fieldset>
+          <button class="create-button">Submit</button>
+        </form>
     </main>
     <nav>
       <a class="nav__button" href="index.html" alt="Home">
