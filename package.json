@@ -1,0 +1,32 @@
+{
+  "name": "coolest-quiz-app",
+  "version": "1.0.0",
+  "description": "quiz app for neuefische",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "npx eslint \"**/*.js\"",
+    "stylelint": "npx stylelint \"**/*.css\"",
+    "prettier:check": "npx prettier --check .",
+    "prettier:write": "npx prettier --write .",
+    "htmlhint": "npx htmlhint \"**/*.html\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicie232/quiz-app.git"
+  },
+  "author": "Alice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alicie232/quiz-app/issues"
+  },
+  "homepage": "https://github.com/alicie232/quiz-app#readme",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "htmlhint": "^1.1.4",
+    "prettier": "^2.7.0",
+    "stylelint": "^14.9.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^26.0.0"
+  }
+}
