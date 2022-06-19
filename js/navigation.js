@@ -10,6 +10,8 @@ const linkProfile = document.querySelector('[data-js=link-profile]');
 
 const allPages = document.querySelectorAll('.page');
 
+const headline = document.querySelector('[data-js=headline]');
+
 export default function navigation() {
 
 linkHome.addEventListener('click', () => {
@@ -24,6 +26,7 @@ linkBookmark.addEventListener('click', () => {
       page.classList.remove('current');
     })
     pageBookmark.classList.add('current');
+    headline.textContent = "Bookmark";
   })
 
 linkCreate.addEventListener('click', () => {
@@ -31,6 +34,7 @@ linkCreate.addEventListener('click', () => {
     page.classList.remove('current');
   })
   pageCreate.classList.add('current');
+  headline.textContent = "Create";
 })
 
 linkProfile.addEventListener('click', () => {
@@ -38,5 +42,6 @@ linkProfile.addEventListener('click', () => {
     page.classList.remove('current');
   })
   pageProfile.classList.add('current');
+  headline.textContent = "Profile";
 })
 }
