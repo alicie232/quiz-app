@@ -10,7 +10,7 @@ const linkProfile = document.querySelector('[data-js=link-profile]');
 
 const allPages = document.querySelectorAll('.page');
 
-function navigation() {
+export default function navigation() {
 
 linkHome.addEventListener('click', () => {
   allPages.forEach((page) => {
@@ -40,5 +40,3 @@ linkProfile.addEventListener('click', () => {
   pageProfile.classList.add('current');
 })
 }
-
-navigation();
