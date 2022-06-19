@@ -14,7 +14,8 @@
   </head>
   <body>
     <header>Quiz App</header>
-    <main>
+   <!-- Home -->
+    <main class="page" data-js="home">
       <section class="question-card" data-js="card">
           <button class="question-card__bookmark" aria-lable="bookmark" data-js="bookmark">
             <i class="fa-solid fa-bookmark"></i>
@@ -62,7 +63,10 @@
           <li class="tag">C</li>
           <li class="tag">D</li>
         </ul>
-     </section>
+     </section>  
+    </main>
+      <!-- Bookmark -->
+    <main class="page" data-js="bookmark">
      <section class="question-card">
       <p class="question-card__title">Question:</p>
       <p class="question-card__question">
@@ -83,7 +87,10 @@
         <i class="fa-solid fa-bookmark"></i>
       </a>
     </section>
-    <section class="page">
+    </main>  
+     <!-- Create -->
+  <main class="page current" data-js="create">
+    <section>
       <form class="create" id="create">
         <fieldset class="add-question" >
           <legend>Create a new question card</legend>
@@ -100,6 +107,9 @@
         <button class="create-button">Submit</button>
       </form>
     </section>
+  </main>
+    <!-- Profil -->
+  <main class="page" data-js="profile">
     <section class="profile">
       <img
         class="profile-photo"
@@ -126,6 +136,7 @@
       <button class="login-button" data-js="button-login">Login</button>
     </section>
     </main>
+    <!-- Navigation -->
     <nav>
       <a class="nav__button" href="index.html" alt="Home">
         <i class="fa-solid fa-house"></i>
