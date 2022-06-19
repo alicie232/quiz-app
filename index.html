@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script type="module" src="index.js" defer></script>
+    <script type="text/javascript" src="js/navigation.js" defer></script>
     <script
       src="https://kit.fontawesome.com/e98346ef52.js"
       crossorigin="anonymous"
@@ -14,8 +15,7 @@
   </head>
   <body>
     <header>Quiz App</header>
-   <!-- Home -->
-    <main class="page" data-js="home">
+    <main class="page current" data-js="home">
       <section class="question-card" data-js="card">
           <button class="question-card__bookmark" aria-lable="bookmark" data-js="bookmark">
             <i class="fa-solid fa-bookmark"></i>
@@ -65,31 +65,33 @@
         </ul>
      </section>  
     </main>
-      <!-- Bookmark -->
-    <main class="page" data-js="bookmark">
-     <section class="question-card">
-      <p class="question-card__title">Question:</p>
-      <p class="question-card__question">
-        Hier steht eine Frage<br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore hic
-        possimus eaque nam in perspiciatis laudantium doloribus enim.
-      </p>
-      <button class="question-card__button">
-        Show Answer
-      </button>
-      <ul class="tag--all">
-        <li class="tag">A</li>
-        <li class="tag">B</li>
-        <li class="tag">C</li>
-        <li class="tag">D</li>
-      </ul>
-      <a class="question-card__bookmark" href="bookmark.html" alt="Bookmark">
-        <i class="fa-solid fa-bookmark"></i>
-      </a>
-    </section>
+    <main class="page" data-js="bookmarked">
+      <section class="question-card" data-js="card">
+        <button class="question-card__bookmark" aria-lable="bookmark" data-js="bookmark">
+          <i class="fa-solid fa-bookmark"></i>
+        </button>         
+        <h2 class="question-card__title">Question:</h2>
+        <p class="question-card__question" data-js="question">
+          Hier steht eine Frage<br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore hic
+          possimus eaque nam in perspiciatis laudantium doloribus enim.
+        </p>
+        <button class="question-card__button" data-js="button">Show Answer
+        </button>
+        <p class="question-card__answer" data-js="answer">
+          Hier steht eine Antwort<br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore hic
+          possimus eaque nam in perspiciatis laudantium doloribus enim.
+        </p>
+        <ul class="tag--all">
+          <li class="tag">A</li>
+          <li class="tag">B</li>
+          <li class="tag">C</li>
+          <li class="tag">D</li>
+        </ul>
+     </section>
     </main>  
-     <!-- Create -->
-  <main class="page current" data-js="create">
+  <main class="page" data-js="create">
     <section>
       <form class="create" id="create">
         <fieldset class="add-question" >
@@ -108,7 +110,6 @@
       </form>
     </section>
   </main>
-    <!-- Profil -->
   <main class="page" data-js="profile">
     <section class="profile">
       <img
@@ -136,18 +137,17 @@
       <button class="login-button" data-js="button-login">Login</button>
     </section>
     </main>
-    <!-- Navigation -->
     <nav>
-      <a class="nav__button" href="index.html" alt="Home">
+      <a class="nav__button" href="#home" data-js="link-home" alt="Home">
         <i class="fa-solid fa-house"></i>
       </a>
-      <a class="nav__button" href="bookmark.html" alt="Bookmark">
+      <a class="nav__button" href="#bookmark" data-js="link-bookmark" alt="Bookmark">
         <i class="fa-solid fa-bookmark"></i>
       </a>
-      <a class="nav__button" href="create.html" alt="Create">
+      <a class="nav__button" href="#create" data-js="link-create" alt="Create">
         <i class="fa-solid fa-file-pen"></i>
       </a>
-      <a class="nav__button" href="profile.html" alt="Profile">
+      <a class="nav__button" href="#profile" data-js="link-profile" alt="Profile">
         <i class="fa-solid fa-circle-user"></i>
       </a>
     </nav>

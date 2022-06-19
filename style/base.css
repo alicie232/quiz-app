@@ -35,3 +35,11 @@ body {
   background-color: #3e9ffe;
   border-radius: 5px;
 }
+
+.page {
+  display: none;
+}
+
+.page.current {
+  display: block;
+}
